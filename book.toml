@@ -1,0 +1,13 @@
+[book]
+title = "s&box linux book"
+authors = ["vinceTheProgrammer"]
+language = "en"
+src = "src"
+
+[output.html]
+default-theme = "ayu"
+site-url = "/sbox-linux-book/"
+git-repository-url = "https://github.com/vinceTheProgrammer/sbox-linux-book/tree/main"
+edit-url-template = "https://github.com/vinceTheProgrammer/sbox-linux-book/edit/main/{path}"
+no-section-label = true
+hash-files = true
