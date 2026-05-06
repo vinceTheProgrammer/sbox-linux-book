@@ -6,6 +6,6 @@
 ```
 3. Right click s&box editor in your library > Properties... > Compatibility > Check "Force the use of a specific Steam Play compatibility tool" > Select "Proton 11.0 (Beta)" or newer
 
-![[Screenshot of s&box editor's Steam compatibility window with Proton 11 selected]](../../../images/editor_compat_proton_11.png)
+![[Screenshot of s&box editor's Steam compatibility window with Proton 11 selected]](../../images/editor_compat_proton_11.png)
 
 4. Run
