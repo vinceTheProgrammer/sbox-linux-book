@@ -2,7 +2,7 @@
 
 s&box on Linux is not officially supported by Facepunch; therefore, the responsibility falls on the community to research, develop and/or maintain patches, forks, PRs, tools, documentation, etc for playing s&box on Linux.
 
-This mdBook, sbox-linux-book, aims to document the best known methods for playing and developing the s&box game, editor, and server, both via Proton and natively.
+This mdBook, sbox-linux-book, aims to document the best known methods for playing and building the s&box game, editor, and server, both via Proton and natively.
 
 sbox-linux-book follows the do not repeat yourself doctrine, in that common information is collected into pages under the "Common" section and then linked to if more than one page needs to reference that information.
 

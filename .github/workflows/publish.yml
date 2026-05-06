@@ -21,6 +21,12 @@ jobs:
       - name: Install mdbook
         run: cargo install mdbook --no-default-features --features search --vers "^0.5" --locked
 
+      - name: Install mdbook-gitinfo
+        run: cargo install mdbook-gitinfo
+
+      - name: Install mdbook-embedify
+        run: cargo install mdbook-embedify
+
       - name: Build book
         working-directory: .
         run: mdbook build

@@ -5,9 +5,42 @@ language = "en"
 src = "src"
 
 [output.html]
-default-theme = "ayu"
+default-theme = "dark"
+preferred-dark-theme = "ayu"
 site-url = "/sbox-linux-book/"
 git-repository-url = "https://github.com/vinceTheProgrammer/sbox-linux-book/tree/main"
 edit-url-template = "https://github.com/vinceTheProgrammer/sbox-linux-book/edit/main/{path}"
 no-section-label = true
 hash-files = true
+additional-css = ["theme/gitinfo.css"]
+
+[preprocessor.gitinfo]
+enable = true
+header = true
+footer = true
+message.header = "Last updated: <em>{{date}}</em>"
+message.footer = "branch: {{branch}} {{sep}} commit: {{hash}}"
+align.header = "center"
+align.footer = "center"
+margin.header.top = "2em"
+margin.header.bottom = "2em"
+margin.footer = ["2em", "0", "0", "0"]
+font-size = "0.8em"
+separator = "||"
+date-format = "%A %d %B %Y"
+time-format = "@ %H:%M:%S"
+branch = "main"
+hyperlink = true
+contributors = true
+
+[preprocessor.embedify]
+scroll-to-top.enable = true
+giscus.enable = true
+giscus.repo = "vinceTheProgrammer/sbox-linux-book"
+giscus.repo-id = "R_kgDOSRH9zw"
+giscus.category = "Site Comments"
+giscus.category-id = "DIC_kwDOSRH9z84C8a_V"
+giscus.reactions-enabled = "1"
+giscus.theme = "book"
+giscus.lang = "en"
+giscus.loading = "lazy"

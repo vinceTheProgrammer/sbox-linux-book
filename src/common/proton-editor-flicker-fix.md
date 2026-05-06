@@ -1,1 +1,0 @@
-# Proton editor flicker fix
