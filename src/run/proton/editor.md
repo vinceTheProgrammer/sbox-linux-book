@@ -1,3 +1,4 @@
+{{#title Run s&box Editor (Proton)}}
 # Run the Editor (Proton)
 1. Install s&box normally via Steam
 2. .NET is not installed inside the editor's Proton prefix by default, so you will need to install it yourself or run this Python script, written by [Doctor Law](https://github.com/joshuascript), that installs it for you:

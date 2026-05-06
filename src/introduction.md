@@ -1,3 +1,4 @@
+{{#title sbox Linux Book Introduction}}
 # Introduction
 
 s&box on Linux is not officially supported by Facepunch; therefore, the responsibility falls on the community to research, develop and/or maintain patches, forks, PRs, tools, documentation, etc for playing s&box on Linux.

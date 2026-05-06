@@ -1,3 +1,4 @@
+{{#title Run s&box Game (Proton)}}
 # Run the Game (Proton)
 
 1. Install s&box normally via Steam
