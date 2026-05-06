@@ -1,4 +1,5 @@
-![Static Badge](https://img.shields.io/badge/The%20Book-388434?logo=mdBook&link=https%3A%2F%2Fvincetheprogrammer.github.io%2Fsbox-linux-book%2F) ![Discord](https://img.shields.io/discord/1465882396082704582) ![GitHub License](https://img.shields.io/github/license/vinceTheProgrammer/sbox-linux-book)
+![Static Badge](https://img.shields.io/badge/The%20Book-388434?logo=mdBook&link=https%3A%2F%2Fvincetheprogrammer.github.io%2Fsbox-linux-book%2F&link=https%3A%2F%2Fvincetheprogrammer.github.io%2Fsbox-linux-book%2F) ![Discord](https://img.shields.io/discord/1465882396082704582) ![GitHub License](https://img.shields.io/github/license/vinceTheProgrammer/sbox-linux-book?link=https%3A%2F%2Fgithub.com%2FvinceTheProgrammer%2Fsbox-linux-book%2Fblob%2Fmain%2FLICENSE&link=https%3A%2F%2Fgithub.com%2FvinceTheProgrammer%2Fsbox-linux-book%2Fblob%2Fmain%2FLICENSE)
+
 
 sbox Linux Book aims to document the best known methods for playing and building the s&box game, editor, and server, both via Proton and natively.
 
