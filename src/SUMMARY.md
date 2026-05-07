@@ -21,3 +21,4 @@
 ---------
 # Common
 - [Editor font scale fix](./common/editor-font-scale-fix.md)
+- [Build game, editor, and server (Proton)](./common/build-proton.md)
