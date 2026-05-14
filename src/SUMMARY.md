@@ -20,5 +20,6 @@
 
 ---------
 # Common
-- [Editor font scale fix](./common/editor-font-scale-fix.md)
 - [Build game, editor, and server (Proton)](./common/build-proton.md)
+- [Install anneal-casefold](./common/install-anneal.md)
+- [Build OpenSSL 3.0.13](./common/build-openssl.md)
