@@ -1,0 +1,39 @@
+- name: Install build dependencies
+  run: sudo apt-get update && sudo apt-get install -y build-essential
+
+- name: Download OpenSSL
+  run: |
+    curl -LO https://github.com/openssl/openssl/releases/download/openssl-3.0.13/openssl-3.0.13.tar.gz
+    tar xf openssl-3.0.13.tar.gz
+
+- name: Build OpenSSL
+  run: |
+    cd openssl-3.0.13
+    ./Configure shared
+    make -j$(nproc)
+
+- name: Prepare libraries
+  run: |
+    mkdir -p openssl-libs
+    cp openssl-3.0.13/libcrypto.so.3 openssl-libs/
+    cp openssl-3.0.13/libssl.so.3   openssl-libs/
+
+- name: Upload artifact
+  uses: actions/upload-artifact@v4
+  with:
+    name: openssl-linux-x86_64
+    path: openssl-libs/
+    if-no-files-found: error
+
+- name: Upload to Release
+  uses: softprops/action-gh-release@v2
+  with:
+    files: |
+      openssl-libs/libcrypto.so.3
+      openssl-libs/libssl.so.3
+    tag_name: openssl-3.0.13-linux-x86_64
+    name: OpenSSL 3.0.13 Linux x86_64 libraries
+    draft: false
+    prerelease: false
+  env:
+    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
