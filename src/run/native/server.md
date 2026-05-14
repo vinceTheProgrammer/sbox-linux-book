@@ -1,8 +1,17 @@
 {{#title Run s&box Server (Native)}}
 # Run the Server (Native)
+As of now there are three ways of running the s&box dedicated server natively that are documented here: via docker, via Docker + Pelican, and manually.
+
+## Docker
+I will update this section with more useful information after doing more research, but here's the GitHub repo: <https://github.com/claudflare/sbox-server-native-linux>
+
+## Pelican (with Docker)
+I will update this section with more useful information after doing more research, but here's the GitHub repo: <https://github.com/FreshDoktor/sbox_egg>
+
+## Manually
 
 > [!CAUTION]
-> THIS PAGE AS OF NOW LIKELY STILL LEADS TO A BROKEN SBOX SERVER. I AM STILL DOING RESEARCH.
+> THIS SECTION AS OF NOW LIKELY STILL LEADS TO A BROKEN SBOX SERVER. I AM STILL DOING RESEARCH.
 
 > [!NOTE]
 > Consider corroborating this information with Facepunch's official documentation page on dedicated servers: <https://sbox.game/dev/doc/networking/dedicated-servers/>
@@ -65,4 +74,4 @@ sed -i 's/\r$//' sbox-server.sh
 11. Reference the table at the bottom of <https://sbox.game/dev/doc/networking/dedicated-servers/> for the available arguments.
 
 > [!CAUTION]
-> THIS PAGE AS OF NOW LIKELY STILL LEADS TO A BROKEN SBOX SERVER. I AM STILL DOING RESEARCH.
+> THIS SECTION AS OF NOW LIKELY STILL LEADS TO A BROKEN SBOX SERVER. I AM STILL DOING RESEARCH.
