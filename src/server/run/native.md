@@ -66,12 +66,11 @@ LD_PRELOAD=libssl.so.3:libcrypto.so.3
 sed -i 's/\r$//' sbox-server.sh
 ```
 
-10. Run the server using `./sbox-server.sh`, passing the relevant arguments like normal. Example:
+10. Run the server using `./sbox-server.sh`, passing your arguments like normal. Example:
 ```sh
 ./sbox-server.sh +game facepunch.sandbox facepunch.flatgrass +hostname "My Dedicated Server"
 ```
-
-11. Reference the table at the bottom of <https://sbox.game/dev/doc/networking/dedicated-servers/> for the available arguments.
+Reference the table at the bottom of <https://sbox.game/dev/doc/networking/dedicated-servers/> for the available arguments.
 
 > [!CAUTION]
 > THIS SECTION AS OF NOW LIKELY STILL LEADS TO A BROKEN SBOX SERVER. I AM STILL DOING RESEARCH.

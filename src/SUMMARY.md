@@ -1,22 +1,23 @@
 [Introduction](./introduction.md)
 
-# Run Proton
-- [Game](./run/proton/game.md)
-- [Editor](./run/proton/editor.md)
-- [Server](./run/proton/server.md)
-# Run Native
-- [Game](./run/native/game.md)
-- [Editor](./run/native/editor.md)
-- [Server](./run/native/server.md)
+# Game
+- [Run (Proton)](./game/run/proton.md)
+- [Run (Native)](./game/run/native.md)
+- [Build (Proton)](./game/build/proton.md)
+- [Build (Native)](./game/build/native.md)
 
-# Build Proton
-- [Game](./build/proton/game.md)
-- [Editor](./build/proton/editor.md)
-- [Server](./build/proton/server.md)
-# Build Native
-- [Game](./build/native/game.md)
-- [Editor](./build/native/editor.md)
-- [Server](./build/native/server.md)
+# Editor
+
+- [Run (Proton)](./editor/run/proton.md)
+- [Run (Native)](./editor/run/native.md)
+- [Build (Proton)](./editor/build/proton.md)
+- [Build (Native)](./editor/build/native.md)
+
+# Server
+- [Run (Proton)](./server/run/proton.md)
+- [Run (Native)](./server/run/native.md)
+- [Build (Proton)](./server/build/proton.md)
+- [Build (Native)](./server/build/native.md)
 
 ---------
 # Common
