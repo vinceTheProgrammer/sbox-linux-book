@@ -1,6 +1,8 @@
 [![The Book](https://img.shields.io/badge/The%20Book-388434?logo=mdBook)](https://vincetheprogrammer.github.io/sbox-linux-book/) [![Discord](https://img.shields.io/discord/1465882396082704582?logo=discord&label=Discord&color=5865F2)](https://discord.gg/6xS36de9gc) [![License](https://img.shields.io/github/license/vinceTheProgrammer/sbox-linux-book)](https://github.com/vinceTheProgrammer/sbox-linux-book/blob/main/LICENSE)
 
 
+**LINK TO THE GUIDE:** https://vincetheprogrammer.github.io/sbox-linux-book/
+
 sbox Linux Book aims to document the best known methods for playing and building the s&box game, editor, and server, both via Proton and natively.
 
 sbox Linux Book is powered by mdBook: https://rust-lang.github.io/mdBook/
