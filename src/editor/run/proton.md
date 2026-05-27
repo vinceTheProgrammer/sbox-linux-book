@@ -9,4 +9,8 @@
 
 ![[Screenshot of s&box editor's Steam compatibility window with Proton 11 selected]](../../images/editor_compat_proton_11.png)
 
-4. Run
+4. Add `PROTON_SET_GAME_DRIVE=0` environment variable to s&box editor's launch options
+
+![[Screenshot of s&box editor's general window with recommended launch options]](../../images/editor_launch_opts_proton_11.png)
+
+5. Run
